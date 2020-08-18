@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Context Id="1a71b066-bdc4-4ac8-898c-13620056f9fd">
+  <Entities>
+    <Entity Id="a184817c-dc79-4292-938f-94eb18208653" Name="SAPLogon760Data" IsArray="False">
+      <Entities>
+        <Entity Id="e4074e4f-3183-46e5-abca-f221f3ed5224" Name="pSAPData" IsArray="False">
+          <Entities>
+            <Entity Id="adc9f7fe-5f1a-4780-b853-2d65598aae67" Name="ed集团" IsArray="False" />
+            <Entity Id="ec43f29a-b465-4f51-bf09-f0d03bfda861" Name="ed用户" IsArray="False" />
+            <Entity Id="e6d92ca0-5126-4d73-b755-eb69e66b2dde" Name="o密码" IsArray="False" />
+            <Entity Id="0b17dc2a-cad1-43dc-a15a-9bea85f8b727" Name="IP" IsArray="False" />
+            <Entity Id="0aa2b0ac-afb8-4773-afd6-478cfe360923" Name="SID" IsArray="False" />
+          </Entities>
+        </Entity>
+        <Entity Id="d5c39c5d-18fb-4109-83e8-e662fb5d94be" Name="pARData" IsArray="False">
+          <Entities>
+            <Entity Id="7d62f4e6-86db-4662-981d-0db3755dd2a2" Name="oGuiOkCodeField" IsArray="False" />
+          </Entities>
+        </Entity>
+        <Entity Id="e1aa2c3e-9776-4762-89a8-d162215b01c2" Name="pAR2Data" IsArray="False">
+          <Entities>
+            <Entity Id="14c0b32a-a928-403e-99f4-a6147c1b83ae" Name="ed公司代码" IsArray="False" />
+            <Entity Id="a106b750-b3a9-4ee0-b240-e9b40389cc0d" Name="ed评估日期" IsArray="False" />
+            <Entity Id="5be9de45-f78d-4d4d-8c4c-6e873662de49" Name="ed凭证日期" IsArray="False" />
+            <Entity Id="ae67d951-17b3-486a-9dfa-cf77cf6c0795" Name="ed过帐日期" IsArray="False" />
+            <Entity Id="ed14c13f-832f-4633-9b10-aefb25c73c9e" Name="ed冲销日期" IsArray="False" />
+            <Entity Id="1c677434-10f9-4bec-b79c-331015abeb8c" Name="o区分利润中心内部考核的管理评估" IsArray="False" />
+            <Entity Id="6eedc3f9-f982-4b4e-8438-b51e11913291" Name="ed利润中心" IsArray="False" />
+            <Entity Id="b0322016-981c-4398-886c-7d4a69f3baeb" Name="oGuiOkCodeField" IsArray="False" />
+          </Entities>
+        </Entity>
+        <Entity Id="2d5e5ed1-8f97-489c-8d87-e3b3cfb1dc72" Name="pAR3Data" IsArray="False">
+          <Entities>
+            <Entity Id="cd4b2404-9908-4f54-905e-1af212b8d996" Name="bt生成分类凭证" IsArray="False" />
+          </Entities>
+        </Entity>
+      </Entities>
+    </Entity>
+  </Entities>
+</Context>

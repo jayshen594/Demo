@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConteXtorStudio Version="StudioReco V1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="XsdStudio.xsd">
+	<PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus">
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="GLOBAL" />
+			</_DECLAREVAR>
+			<SCRIPTS />
+			<RESOURCES />
+		</PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<APPLI Name="SAPLogon760" CtxtId="a184817c-dc79-4292-938f-94eb18208653" Nature="UIAUTOMATION" TechnoSDK="V3" Sync="0" PendingDelay="0">
+			<CAPTURE Name="APPLI_SAPLogon760_3" CtxtId="1" Techno="UIAutomation" />
+			<SCRIPTS />
+			<CRITERE>
+				<EXE Scan="Full"><![CDATA[SAPLOGON.EXE]]></EXE>
+			</CRITERE>
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="SAPLogon760" />
+			</_DECLAREVAR>
+			<_ECRANS>
+				<PAGE Name="pSAP" Comment="GuiMainWindow - SAP" CtxtId="e4074e4f-3183-46e5-abca-f221f3ed5224" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Type Scan="Full"><![CDATA[GuiMainWindow]]></Type>
+						<Text Scan="Full"><![CDATA[SAP]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="ed集团" CtxtId="adc9f7fe-5f1a-4780-b853-2d65598aae67" CustomType="GuiTextField" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="GuiTextField" Scope="All" CapturedPos="10.R0R4R1">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[RSYST-MANDT]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed用户" CtxtId="ec43f29a-b465-4f51-bf09-f0d03bfda861" CustomType="GuiTextField" SpecIndex="2">
+							<CRITERE>
+								<TAG Name="GuiTextField" Scope="All" CapturedPos="10.R0R4R5">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[RSYST-BNAME]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="o密码" CtxtId="e6d92ca0-5126-4d73-b755-eb69e66b2dde" CustomType="GuiPasswordField" SpecIndex="3">
+							<CRITERE>
+								<TAG Name="GuiPasswordField" Scope="All" CapturedPos="10.R0R4R7">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[RSYST-BCODE]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed欢迎登录物产中大集团SAPERP" CtxtId="2ad2bc65-189e-45bf-8d33-8df0306e638b" CustomType="GuiTextField" MustExist="Y">
+							<CRITERE>
+								<TAG Name="GuiTextField" Scope="All" CapturedPos="10.R0R4R3R0">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[INFO_TAB-TDLINE]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btGuiButton" CtxtId="65ed747c-acc7-4b67-9c4b-6b991f3dd3fb" CustomType="GuiButton" SpecIndex="4">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="10.R0R1R0">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[0]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_SAP_1357426_1" Comment="GuiMainWindow - SAP" CtxtId="10" Techno="SAPGUI" CapturedPos="10.R0" Timestamp="10/08/2020 13:58:08" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pAR" Comment="GuiMainWindow - SAP 轻松访问" CtxtId="d5c39c5d-18fb-4109-83e8-e662fb5d94be" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[SAP 轻松访问]]></Text>
+						<Type Scan="Full"><![CDATA[GuiMainWindow]]></Type>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="oGuiOkCodeField" CtxtId="7d62f4e6-86db-4662-981d-0db3755dd2a2" CustomType="GuiOkCodeField" MustExist="Y" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="GuiOkCodeField" Scope="All" CapturedPos="11.R0R1R17">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[okcd]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btGuiButton" CtxtId="3a8a7038-9cf9-40da-8f25-cd163b71aa7a" CustomType="GuiButton" MustExist="Y" SpecIndex="2">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="11.R0R1R0">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[0]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="bt创建角色" CtxtId="9d0914d0-ac2e-4369-b909-fbb7316fe88b" CustomType="GuiButton" MustExist="Y">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="11.R0R3R9">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[48]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="bt其它菜单" CtxtId="6b1c6466-d073-4618-9d4a-34e5b73516da" CustomType="GuiButton" MustExist="Y">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="11.R0R3R3">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[17]]]></VALUE>
+									</ATT>
+									<ATT Name="Type">
+										<VALUE Scan="Full"><![CDATA[GuiButton]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_SAP_1406259_1" Comment="GuiMainWindow - SAP 轻松访问" CtxtId="11" Techno="SAPGUI" CapturedPos="11.R0" Timestamp="10/08/2020 14:06:58" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pAR2" Comment="GuiMainWindow - 应收账款重分类" CtxtId="3350dcef-4ace-4999-a1ec-69f5ed5351e6" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[应收账款重分类]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="ed公司代码" CtxtId="ff1d6294-d157-460e-9dd4-f8bd781a2e01" CustomType="GuiCTextField" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R2">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_BUKRS]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed评估日期" CtxtId="04d634c7-8d63-40c7-8192-81281f390b3a" CustomType="GuiCTextField" SpecIndex="2">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R4">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_KDATE]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed总帐科目" CtxtId="931be5d4-6ed8-4310-9ba2-5b60396b73b8" CustomType="GuiCTextField" MustExist="Y">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R6">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[S_HKONT-LOW]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed到" CtxtId="66233148-9b54-4270-b6d9-d7731dc16aaf" CustomType="GuiCTextField" MustExist="Y">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R8">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[S_HKONT-HIGH]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed凭证日期" CtxtId="b9ae1187-d586-4859-b9ed-1d565726837f" CustomType="GuiCTextField" SpecIndex="3">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R12">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_BLDAT]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed过帐日期" CtxtId="7bbed3aa-6ec3-48d2-992f-24cacf33943b" CustomType="GuiCTextField" SpecIndex="4">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R14">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_BUDAT]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed冲销日期" CtxtId="85b607ee-339b-42ab-80a2-4d8cd281b6c6" CustomType="GuiCTextField" SpecIndex="5">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R16">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_RE_DT]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="o区分利润中心内部考核的管理评估" CtxtId="1894ecd8-bb56-41ff-82d2-9db6335ef458" CustomType="GuiRadioButton" SpecIndex="9">
+							<CRITERE>
+								<TAG Name="GuiRadioButton" Scope="All" CapturedPos="13.R0R4R19">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_VAR2]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="ed利润中心" CtxtId="30a703a1-ff7a-41a8-9be0-b6e25b3a8a95" CustomType="GuiCTextField" SpecIndex="6">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="13.R0R4R21">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[P_PRCTR]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btGuiButton" CtxtId="10671af1-e9d6-423f-bc66-64a5d5aa4e3c" CustomType="GuiButton" SpecIndex="8">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="13.R0R3R0">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[8]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oGuiOkCodeField" CtxtId="b0322016-981c-4398-886c-7d4a69f3baeb" CustomType="GuiOkCodeField" SpecIndex="11">
+							<CRITERE>
+								<TAG Name="GuiOkCodeField" Scope="All" CapturedPos="13.R0R1R17">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[okcd]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btGuiButton1" CtxtId="4dde9eae-a19a-4a8a-94de-aca74a2168a0" CustomType="GuiButton" SpecIndex="12">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="13.R0R1R0">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[0]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_Capture_1438119_1" Comment="GuiMainWindow - 应收账款重分类" CtxtId="13" Techno="SAPGUI" CapturedPos="13.R0" Timestamp="10/08/2020 14:38:46" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pAR3" Comment="GuiMainWindow - 应收账款重分类" CtxtId="2d5e5ed1-8f97-489c-8d87-e3b3cfb1dc72" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[应收账款重分类]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="bt生成分类凭证" CtxtId="cd4b2404-9908-4f54-905e-1af212b8d996" CustomType="GuiButton" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="15.R0R3R21">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[48]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="bt按科目汇总" CtxtId="fe28fea7-a02b-4d48-8b1c-00b6e2fdb62c" CustomType="GuiButton" MustExist="Y">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="15.R0R3R20">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[9]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oPane" CtxtId="bff78c8d-5198-49f0-9b1b-148366421d23" CustomType="GUIGridViewPane" MustExist="Y">
+							<CRITERE>
+								<TAG Name="Pane" Scope="All" CapturedPos="15.R0R4R0R0R0R0">
+									<ATT Name="AutomationId">
+										<VALUE Scan="Full"><![CDATA[1]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btGuiButton" CtxtId="2790b213-ee9f-4dac-96eb-6ccfcaddfda6" CustomType="GuiButton" SpecIndex="3">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="15.R0R1R3">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[3]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_Capture_1451531_1" Comment="GuiMainWindow - 应收账款重分类" CtxtId="15" Techno="SAPGUI" CapturedPos="15.R0" Timestamp="10/08/2020 14:52:34" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pAR4" Comment="GuiModalWindow - 过账结果显示" CtxtId="f90827d3-ea80-4c6c-8e42-eea5eb02e2b5" CustomType="GuiModalWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[过账结果显示]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="bt取消" CtxtId="ed6ff4e9-76ac-4766-9a86-ff1b9a3baa3b" CustomType="GuiButton">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="16.R0R0R1">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[btn[12]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_Capture_1528259_1" Comment="GuiModalWindow - 过账结果显示" CtxtId="16" Techno="SAPGUI" CapturedPos="16.R0" Timestamp="10/08/2020 15:28:27" MaskRectangle="0|0|182|536" />
+				</PAGE>
+				<PAGE Name="pWindowSAPLogon76" Comment="Window - SAP Logon 760" CtxtId="8baf0df2-089e-4481-bf87-1e210373aeb9" SubpagesType="Multiple" RefreshMode="Window">
+					<CRITERE>
+						<Name Scan="Full"><![CDATA[SAP Logon 760]]></Name>
+					</CRITERE>
+					<TRACK_EVENTS>
+						<TRACK_EVENT Name="REFRESH(WINDOWOPENED(DESCENDANTS))" />
+					</TRACK_EVENTS>
+					<OBJETS>
+						<OBJET Name="stS4QAS" CtxtId="c5cf488e-7dc4-41da-b614-7728559ca540" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="Text" Scope="All" CapturedPos="17.R0R14R0R1R0R0R3R0">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[S4 QAS]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_WindowSAPLogon76_0905348_1" Comment="Window - SAP Logon 760" CtxtId="17" Techno="UIAutomation" CapturedPos="17.R0" Timestamp="12/08/2020 09:05:35" MaskRectangle="0|0|975|760" />
+				</PAGE>
+			</_ECRANS>
+			<PATH><![CDATA[C:\Program Files (x86)\SAP\FrontEnd\SapGui\saplogon.exe]]></PATH>
+			<ACTIONS />
+			<EVENTS />
+			<SCENARII>
+				<Steps />
+			</SCENARII>
+		</APPLI>
+	</APPLICATIONS>
+</ConteXtorStudio>

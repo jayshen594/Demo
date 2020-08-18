@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WORKFLOWDATA>
+	<FOLDER Name="SAPLogon760Data" CtxtId="a184817c-dc79-4292-938f-94eb18208653" IsIndexed="N">
+		<FOLDER Name="pSAPData" CtxtId="e4074e4f-3183-46e5-abca-f221f3ed5224" IsIndexed="N">
+			<ITEM Name="ed集团" CtxtId="adc9f7fe-5f1a-4780-b853-2d65598aae67" IsIndexed="N" />
+			<ITEM Name="ed用户" CtxtId="ec43f29a-b465-4f51-bf09-f0d03bfda861" IsIndexed="N" />
+			<ITEM Name="o密码" CtxtId="e6d92ca0-5126-4d73-b755-eb69e66b2dde" IsIndexed="N" />
+			<ITEM Name="IP" CtxtId="0b17dc2a-cad1-43dc-a15a-9bea85f8b727" IsIndexed="N" />
+			<ITEM Name="SID" CtxtId="0aa2b0ac-afb8-4773-afd6-478cfe360923" IsIndexed="N" />
+		</FOLDER>
+		<FOLDER Name="pARData" CtxtId="d5c39c5d-18fb-4109-83e8-e662fb5d94be" IsIndexed="N">
+			<ITEM Name="oGuiOkCodeField" CtxtId="7d62f4e6-86db-4662-981d-0db3755dd2a2" IsIndexed="N" />
+		</FOLDER>
+		<FOLDER Name="pAR2Data" CtxtId="e1aa2c3e-9776-4762-89a8-d162215b01c2" IsIndexed="N">
+			<ITEM Name="ed公司代码" CtxtId="14c0b32a-a928-403e-99f4-a6147c1b83ae" IsIndexed="N" />
+			<ITEM Name="ed评估日期" CtxtId="a106b750-b3a9-4ee0-b240-e9b40389cc0d" IsIndexed="N" />
+			<ITEM Name="ed凭证日期" CtxtId="5be9de45-f78d-4d4d-8c4c-6e873662de49" IsIndexed="N" />
+			<ITEM Name="ed过帐日期" CtxtId="ae67d951-17b3-486a-9dfa-cf77cf6c0795" IsIndexed="N" />
+			<ITEM Name="ed冲销日期" CtxtId="ed14c13f-832f-4633-9b10-aefb25c73c9e" IsIndexed="N" />
+			<ITEM Name="o区分利润中心内部考核的管理评估" CtxtId="1c677434-10f9-4bec-b79c-331015abeb8c" IsIndexed="N" />
+			<ITEM Name="ed利润中心" CtxtId="6eedc3f9-f982-4b4e-8438-b51e11913291" IsIndexed="N" />
+			<ITEM Name="oGuiOkCodeField" CtxtId="b0322016-981c-4398-886c-7d4a69f3baeb" IsIndexed="N" />
+		</FOLDER>
+		<FOLDER Name="pAR3Data" CtxtId="2d5e5ed1-8f97-489c-8d87-e3b3cfb1dc72" IsIndexed="N">
+			<ITEM Name="bt生成分类凭证" CtxtId="cd4b2404-9908-4f54-905e-1af212b8d996" IsIndexed="N" />
+		</FOLDER>
+	</FOLDER>
+</WORKFLOWDATA>

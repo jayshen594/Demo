@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+	<Identification>
+		<Version Value="2.0.2.131"/>
+	</Identification>
+	<Properties>
+		<Property Name="projectFile" Value="ZFIE0030A.debug.psc"/>
+		<Property Name="projectVersion" Value="1.0"/>
+		<Property Name="projectName" Value="ZFIE0030A"/>
+		<Property Name="projectId" Value="44be7cff-93d1-4aff-a8fb-54748e5c6d6d"/>
+		<Property Name="projectDate" Value="12/08/2020"/>
+		<Property Name="projectLabel" Value="ZFIE0030A"/>
+		<Property Name="projectClient" Value="ZFIE0030A"/>
+		<Property Name="licenceURL" Value=""/>
+		<Property Name="archiveFile" Value=""/>
+		<Property Name="productVersion" Value="2.0.2.131"/>
+		<Property Name="sdkVersion" Value="2.0.2.131"/>
+		<Property Name="exportDate" Value="12/8/2020"/>
+		<Property Name="IsTrial" Value="False"/>
+		<Property Name="validity" Value=""/>
+		<Property Name="cyphering" Value="0"/>
+		<Property Name="compression" Value="1"/>
+	</Properties>
+	<Properties Name="scenario0">
+		<Property Name="appliName" Value="GLOBAL" Type="1"/>
+		<Property Name="scenario" Value="zfie0030A" Type="1"/>
+		<Property Name="name" Value="" Type="1"/>
+		<Property Name="id" Value="a9d2fcda-4998-42c5-ade8-f6f892161b6d" Type="1"/>
+		<Property Name="timeout" Value="600" Type="1"/>
+		<Property Name="task" Value="1" Type="1"/>
+		<Property Name="contextRoot" Value="" Type="1"/>
+		<Property Name="input" Value="" Type="1"/>
+		<Property Name="output" Value="" Type="1"/>
+	</Properties>
+	<Keys Name="scenario0">
+	</Keys>
+	<Properties Name="authentication">
+		<Property Name="result" Value="MIIBJwYJKoZIhvcNAQcCoIIBGDCCARQCAQExDzANBgkqhkiG9w0BAQUFADAvBgkq
+hkiG9w0BBwGgIgQgQwB0AHgAdABEAGUAZgBhAHUAbAB0AE0AYQByAGsAAAAxgcww
+gckCAQEwJDAcMRowGAYDVQQDExFOTyBDRVJUIFNJR05BVFVSRQIEEjRWeDANBgkq
+hkiG9w0BAQUFADAMBggqhkiG9w0DBAUABIGAxCtrEJOWqcWbeJ1DA/Q+3vg5LWFi
+WNzio8MtqRFWb35CAstoo07RHpmq0esRxuclT/f+WHW/GdmGVztOZ7khcEProcHy
+AdHttElIBbNr1An1taOl40jpqY/NpedXdhduk3CYTHvuwntoxqmb5vAE6X5QvqqL
+5PM904tF7hN2jhU=
+" Type="1"/>
+	</Properties>
+	<Keys Name="authentication">
+	</Keys>
+	<UpdatePackages>
+	</UpdatePackages>
+	<KeyNames Value="" Type="32771"/>
+	<KeyContent Value="" Type="32771"/>
+	<KeyProps Value="2ab2f5d9ca6c36890e7ecf4d604fba4d" Type="32771"/>
+</doc>
